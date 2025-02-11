@@ -80,6 +80,7 @@ function MasterDetail() {
         name: '',
         minWidth: 30,
         width: 30,
+        frozen: true
         colSpan(args) {
           return args.type === 'ROW' && args.row.type === 'DETAIL' ? 3 : undefined;
         },
